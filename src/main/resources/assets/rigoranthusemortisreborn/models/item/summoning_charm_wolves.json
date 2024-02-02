@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rigoranthusemortisreborn:items/summoning_charm_wolves"
+  }
+}

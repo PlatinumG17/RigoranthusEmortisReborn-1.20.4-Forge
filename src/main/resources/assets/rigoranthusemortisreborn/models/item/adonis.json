@@ -1,0 +1,48 @@
+{
+  "credit": "Made by PlatinumG17 with Blockbench",
+  "parent": "builtin/entity",
+  "display": {
+
+    "thirdperson_righthand":{
+      "rotation":[0,-90,0],"translation":[0,-11.5,2.75],"scale":[1.2,1.2,1.2]
+    },
+
+    "thirdperson_lefthand":{
+      "rotation":[0,90,0],"translation":[0,-11.75,3],"scale":[1.2,1.2,1.2]
+    },
+
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          0,
+          -2.75,
+          0
+        ]
+      },
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0,
+          -2.75,
+          0
+        ]
+      },
+
+    "ground":{
+      "scale":[1.0,1.0,1.0]},
+
+    "gui":{
+      "rotation":[0,0,46],"translation":[4,-7.25,0]},
+
+    "fixed":{
+      "translation":[-0.75,-8.75,-0.5],"scale":[1.1,1.1,1.1]}
+  }
+}

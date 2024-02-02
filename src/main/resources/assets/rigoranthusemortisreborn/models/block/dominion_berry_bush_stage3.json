@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "rigoranthusemortisreborn:blocks/dominion_berry_bush_stage3"
+  }
+}

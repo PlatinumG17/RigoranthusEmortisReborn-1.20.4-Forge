@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="LGPLv.2.1"
+
+[[mods]]
+    modId="rigoranthusemortisreborn"
+    version="${version}"
+    logoFile="rigoranthus_emortis_logo.png"
+    itemIcon="rigoranthusemortisreborn:assets/ftbchunks/textures/faces/rigoranthusemortisreborn/canis_chordata.png"
+    configBackground = "rigoranthusemortisreborn:textures/gui/advancements/azuloreal.png"
+    authors="PlatinumG17 (aka Matt)"
+    credits="Some code inspired by or sourced from: Percivalalb, Baileyholl & XenoMustache."
+    displayURL="https://www.curseforge.com/members/platinumg17/projects"
+    displayName="Rigoranthus Emortis Reborn"
+description='''
+Adds unique and Nasty Mobs while exploring some of the lore
+behind the origins of enchantments in minecraft!
+Tame a monster and slay mobs to gain access to new crafting systems
+that you can use to explore new combat options!
+
+Additionally, this mod adds some:
+    - Tools & Resources
+    - Weapons & Armor-sets
+    - Decorative Blocks
+    - Biomes
+'''
+
+[[dependencies.rigoranthusemortisreborn]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rigoranthusemortisreborn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# Features are specific properties of the game environment, that you may want to declare you require. This example declares
+# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
+# stop your mod loading on the server for example.
+#[features.${mod_id}]
+#openGLVersion="[3.2,)"
